@@ -1,0 +1,105 @@
+:root{
+    /*Cores*/
+    --coor-principal:#032535;
+    --cor-secundaria: #5C8374;
+    --cor-terciaria: #0c2b41fa;
+    --cor-quartearia: #fff;
+
+    --corHover:#040D12;
+    /*Fontes*/
+    --fonte-princiapl:  Arial, sans-serif;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: var(--fonte-princiapl);
+}
+
+body{
+    background-color: var(--coor-principal);  
+    height: 100vh;  
+
+}
+.cabecalho{
+    display: flex;
+    justify-content: center;
+    background-color: var(--cor-terciaria);
+    box-shadow: 0 0 7px rgba(236, 233, 233, 0.507);
+    padding: 1%;
+}
+
+.ancora{
+    color: var(--cor-quartearia);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px;
+}
+.ancora:hover{
+    border-bottom: 2px solid var(--cor-quartearia);
+}
+.principal{
+    box-shadow: 0 0 7px rgb(255, 255, 255, 0.8);
+    width: 700px;
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+    margin: 50px auto ;
+    padding: 20px;
+    color: var(--cor-quartearia);
+    border-radius: 5px;
+   
+}
+
+.editar_foto{
+
+    height: 250px;
+    width: 250px;
+}
+
+.redes-sociais{
+    display: flex;
+    justify-self: flex-start;
+    justify-content:center;
+    padding:10px;
+    color: var(--cor-quartearia);
+}
+
+.redes-sociais img{
+    padding: 15px;
+}
+.card{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-auto-rows: auto;
+    width: 900px;
+    margin: 50px auto;
+    gap: 10px;
+   
+}
+.titulo{
+    padding-top: 20px ;
+    text-align: center;
+    color: var(--cor-quartearia);
+}
+
+.card__exp{
+    box-shadow: 0 0 7px rgb(255, 255, 255, 0.2);
+    text-align: center;
+    color: var(--cor-quartearia);
+    padding: 10px;
+    border-radius: 5px;
+}
+.formacoes{
+    box-shadow: 0 0 7px rgb(255, 255, 255, 0.8);
+    width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    color: var(--cor-quartearia);
+}
+
+.formacoes-ul{
+    list-style: none;
+}
